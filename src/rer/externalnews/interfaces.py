@@ -19,3 +19,10 @@ class IExternalNews(Interface):
         default=u'https://',
         required=True,
     )
+
+    provenienza = schema.TextLine(
+        title=_(u'Da dove viene'),
+        description=_(u'Inserire il nome del portale tematico da cui proviene la news.'),
+        default=u'https://',
+        required=False,
+    )
