@@ -13,12 +13,9 @@ class IRerExternalnewsLayer(IDefaultBrowserLayer):
 
 class IExternalNews(Interface):
 
-    title = schema.TextLine(
-        title=_(u'Title'),
+    external_link = schema.TextLine(
+        title=_(u'Link esterno ad una news'),
+        description=_(u'Inserire un link valido ad una news esterna.'),
+        default=u'https://',
         required=True,
-    )
-
-    description = schema.Text(
-        title=_(u'Description'),
-        required=False,
     )
