@@ -34,7 +34,7 @@ class ExternalNewsRedirectView(BrowserView):
     index = ViewPageTemplateFile('templates/externalnews.pt')
 
     def _url_uses_scheme(self, schemes, url=None):
-        url = url or self.context.external_link
+        url = url or self.context.externalUrl
         for scheme in schemes:
             if url.startswith(scheme):
                     return True
@@ -64,7 +64,7 @@ class ExternalNewsRedirectView(BrowserView):
         """
         url = replace_link_variables_by_paths(
             self.context,
-            self.context.external_link
+            self.context.externalUrl
         )
         return url
 

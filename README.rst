@@ -16,6 +16,7 @@ Features
 --------
 
 - You can add an image to the object.
+- You can specify where the link is from.
 
 
 Examples
@@ -36,7 +37,6 @@ Translations
 
 This product has been translated into
 
-- English
 - Italiano
 
 
