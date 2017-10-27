@@ -18,4 +18,13 @@
       directory="static"
       />
 
+  <!-- External News view -->
+  <browser:page
+      name="externalnews_redirect_view"
+      for="rer.externalnews.interfaces.IExternalNews"
+      class=".externalnews_view.ExternalNewsRedirectView"
+      layer="rer.externalnews.interfaces.IRerExternalnewsLayer"
+      permission="zope2.View"
+      />
+
 </configure>
