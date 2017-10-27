@@ -6,12 +6,16 @@
 rer.externalnews
 ================
 
-Tell me what your product does
+This product adds a new dexterity content type to your plone  website:
+**External
+News**.
+
+This type is similar and act as a Link type.
 
 Features
 --------
 
-- Can be bullet points
+- You can add an image to the object.
 
 
 Examples
@@ -32,7 +36,8 @@ Translations
 
 This product has been translated into
 
-- Klingon (thanks, K'Plai)
+- English
+- Italiano
 
 
 Installation
@@ -49,21 +54,6 @@ Install rer.externalnews by adding it to your buildout::
 
 
 and then running ``bin/buildout``
-
-
-Contribute
-----------
-
-- Issue Tracker: https://github.com/collective/rer.externalnews/issues
-- Source Code: https://github.com/collective/rer.externalnews
-- Documentation: https://docs.plone.org/foo/bar
-
-
-Support
--------
-
-If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
 
 
 License
