@@ -12,6 +12,7 @@ class IRerExternalnewsLayer(IDefaultBrowserLayer):
 
 
 class IExternalNews(Interface):
+    """ Interfaccia per il content type: External News"""
 
     external_link = schema.TextLine(
         title=_(u'Link esterno ad una news'),
@@ -23,6 +24,6 @@ class IExternalNews(Interface):
     provenienza = schema.TextLine(
         title=_(u'Da dove viene'),
         description=_(u'Inserire il nome del portale tematico da cui proviene la news.'),
-        default=u'https://',
+        default=u'',
         required=False,
     )
