@@ -4,7 +4,7 @@
     xmlns:i18n="http://xml.zope.org/namespaces/i18n"
     lang="en"
     metal:use-macro="context/main_template/macros/master"
-    i18n:domain="plone">
+    i18n:domain="rer.externalnews">
 <body>
 
 <metal:content-core fill-slot="content-core">
@@ -21,7 +21,7 @@
   </div>
   <tal:externalsource tal:condition="context/externalSource">
   <p>
-    <span i18n:translate="link_source">Il link proviene da:</span>
+    <span i18n:translate="link_source">The link source is:</span>
     <b class="url-source-text">
         <span tal:content="context/externalSource"
               class="url-source-text">url source</span>

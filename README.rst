@@ -19,19 +19,6 @@ Features
 - You can specify where the link is from.
 
 
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
-
-
-Documentation
--------------
-
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
-
-
 Translations
 ------------
 
@@ -54,6 +41,18 @@ Install rer.externalnews by adding it to your buildout::
 
 
 and then running ``bin/buildout``
+
+
+Compatibility
+-------------
+This package is fully compatible for Plone 5.
+
+
+Contribute
+----------
+
+- Issue Tracker: https://github.com/PloneGov-IT/rer.externalnews/issues
+- Source Code: https://github.com/PloneGov-IT/rer.externalnews
 
 
 License

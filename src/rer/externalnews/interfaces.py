@@ -15,15 +15,15 @@ class IExternalNews(Interface):
     """ Interfaccia per il content type: External News"""
 
     externalUrl = schema.TextLine(
-        title=_(u'Link esterno ad una news'),
-        description=_(u'Inserire un link valido ad una news esterna.'),
+        title=_(u'rer_externalnews_externalurl', default=u'External url'),
+        description=_(u'rer_ernews_externalurl_help', default=u'Insert a valid link to an external resource'),
         default=u'https://',
         required=True,
     )
 
     externalSource = schema.TextLine(
-        title=_(u'Da dove viene'),
-        description=_(u'Inserire il nome del portale tematico da cui proviene la news.'),
+        title=_(u'rer_externalnews_externalsource', default=u'Source'),
+        description=_(u'rer_externalnews_externalsource_help', default=u"Where the URL is from."),
         default=u'',
         required=False,
     )

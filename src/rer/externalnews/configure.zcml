@@ -14,16 +14,16 @@
       name="default"
       title="RER: External News"
       directory="profiles/default"
-      description="Installa il prodotto rer.externalnews."
+      description="Install the rer.externalnews add-on."
       provides="Products.GenericSetup.interfaces.EXTENSION"
       post_handler=".setuphandlers.post_install"
       />
 
   <genericsetup:registerProfile
       name="uninstall"
-      title="RER: External News (disinstalla)"
+      title="RER: External News (unistall)"
       directory="profiles/uninstall"
-      description="Disinstalla  il prodotto rer.externalnews."
+      description="Uninstall the rer.externalnews add-on."
       provides="Products.GenericSetup.interfaces.EXTENSION"
       post_handler=".setuphandlers.uninstall"
       />

@@ -1,12 +1,9 @@
-# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
-# SOME DESCRIPTIVE TITLE.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2017-10-27 14:37+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2017-10-27 HO:MI +ZONE\n"
+"Last-Translator: Giacomo Monari <giacomo.monari@redturtle.it>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -19,67 +16,68 @@ msgstr ""
 
 #: ../profiles/default/types/ExternalNews.xml
 msgid "Edit"
-msgstr ""
+msgstr "Modifica"
 
 #: ../profiles/default/types/ExternalNews.xml
 msgid "ExternalNews"
-msgstr ""
+msgstr "ExternalNews"
 
 #: ../browser/templates/externalnews.pt:15
 msgid "Info"
-msgstr ""
+msgstr "Informazioni"
 
 #: ../configure.zcml:20
 msgid "Install the rer.externalnews add-on."
-msgstr ""
+msgstr "Installa il prodotto rer.externalnews."
 
 #: ../configure.zcml:20
 msgid "RER: External News"
-msgstr ""
+msgstr "RER: External News"
 
 #: ../configure.zcml:29
 msgid "RER: External News (unistall)"
-msgstr ""
+msgstr "RER: External News (disinstalla)"
 
 #: ../configure.zcml:29
 msgid "Uninstall the rer.externalnews add-on."
-msgstr ""
+msgstr "Disinstalla il prodotto rer.externalnews."
 
 #: ../profiles/default/types/ExternalNews.xml
 msgid "View"
-msgstr ""
+msgstr "Vista"
 
 #. Default: "The link address is:"
 #: ../browser/templates/externalnews.pt:32
 msgid "link_address"
-msgstr ""
+msgstr "L'indirizzo del collegamento è:"
 
 #. Default: "The link source is:"
 #: ../browser/templates/externalnews.pt:24
+#, fuzzy
 msgid "link_source"
-msgstr ""
+msgstr "Il link proviene da:"
 
 #. Default: "You see this page because you have permission to edit this link. Others will be immediately redirected to the link's target URL."
 #: ../browser/templates/externalnews.pt:16
 msgid "message_permissions_blocking_link_redirect"
-msgstr ""
+msgstr "Vedi questa pagina perché hai il permesso di modificare questo collegamento. Gli altri verranno rediretti direttamente all'URL di destinazione del collegamento. "
 
 #. Default: "Insert a valid link to an external resource"
 #: ../interfaces.py:19
 msgid "rer_ernews_externalurl_help"
-msgstr ""
+msgstr "Inserire un link valido ad una risorsa esterna."
 
 #. Default: "Source"
 #: ../interfaces.py:25
 msgid "rer_externalnews_externalsource"
-msgstr ""
+msgstr "Sorgente"
 
 #. Default: "Where the URL is from."
 #: ../interfaces.py:26
 msgid "rer_externalnews_externalsource_help"
-msgstr ""
+msgstr "Da dove proviene questo URL."
 
 #. Default: "External url"
 #: ../interfaces.py:18
 msgid "rer_externalnews_externalurl"
-msgstr ""
+msgstr "URL esterno"
