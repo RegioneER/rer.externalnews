@@ -7,7 +7,7 @@ rer.externalnews
 ================
 
 This product adds a new dexterity content type to your plone  website:
-**ExternalNews**.
+**External News**.
 
 This type is similar and act as a Link type.
 
