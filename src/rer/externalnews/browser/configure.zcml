@@ -4,20 +4,6 @@
     xmlns:plone="http://namespaces.plone.org/plone"
     i18n_domain="rer.externalnews">
 
-  <!-- Set overrides folder for Just-a-Bunch-Of-Templates product -->
-  <include package="z3c.jbot" file="meta.zcml" />
-  <browser:jbot
-      directory="overrides"
-      layer="rer.externalnews.interfaces.IRerExternalnewsLayer"
-      />
-
-  <!-- Publish static files -->
-  <plone:static
-      name="rer.externalnews"
-      type="plone"
-      directory="static"
-      />
-
   <!-- External News view -->
   <browser:page
       name="externalnews_redirect_view"
