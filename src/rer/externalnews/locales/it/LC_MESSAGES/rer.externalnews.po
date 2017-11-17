@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-10-27 14:37+0000\n"
+"POT-Creation-Date: 2017-11-17 12:06+0000\n"
 "PO-Revision-Date: 2017-10-27 HO:MI +ZONE\n"
 "Last-Translator: Giacomo Monari <giacomo.monari@redturtle.it>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,14 +53,13 @@ msgstr "L'indirizzo del collegamento è:"
 
 #. Default: "The link source is:"
 #: ../browser/templates/externalnews.pt:24
-#, fuzzy
 msgid "link_source"
-msgstr "Il link proviene da:"
+msgstr "Fonte:"
 
 #. Default: "You see this page because you have permission to edit this link. Others will be immediately redirected to the link's target URL."
 #: ../browser/templates/externalnews.pt:16
 msgid "message_permissions_blocking_link_redirect"
-msgstr "Vedi questa pagina perché hai il permesso di modificare questo collegamento. Gli altri verranno rediretti direttamente all'URL di destinazione del collegamento. "
+msgstr "Vedi questa pagina perché hai il permesso di modificare questo collegamento. Gli altri verranno reindirizzati direttamente all'URL di destinazione del collegamento. "
 
 #. Default: "Insert a valid link to an external resource"
 #: ../interfaces.py:19
@@ -70,7 +69,7 @@ msgstr "Inserire un link valido ad una risorsa esterna."
 #. Default: "Source"
 #: ../interfaces.py:25
 msgid "rer_externalnews_externalsource"
-msgstr "Sorgente"
+msgstr "Fonte"
 
 #. Default: "Where the URL is from."
 #: ../interfaces.py:26
