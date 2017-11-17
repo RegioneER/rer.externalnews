@@ -16,14 +16,18 @@ class IExternalNews(Interface):
 
     externalUrl = schema.TextLine(
         title=_(u'rer_externalnews_externalurl', default=u'External url'),
-        description=_(u'rer_ernews_externalurl_help', default=u'Insert a valid link to an external resource'),
-        default=u'https://',
+        description=_(
+                u'rer_ernews_externalurl_help',
+                default=u'Insert a valid link to an external resource'),
+        default=u'',
         required=True,
     )
 
     externalSource = schema.TextLine(
         title=_(u'rer_externalnews_externalsource', default=u'Source'),
-        description=_(u'rer_externalnews_externalsource_help', default=u"Where the URL is from."),
+        description=_(
+                u'rer_externalnews_externalsource_help',
+                default=u"Where the URL is from."),
         default=u'',
         required=False,
     )
