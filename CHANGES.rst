@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-0.1.1 (unreleased)
+0.1.1 (2017-12-21)
 ------------------
 
 - Added some behaviors to the External News type.
