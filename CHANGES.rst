@@ -5,7 +5,8 @@ Changelog
 0.1.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Added some behaviors to the External News type.
+  [arsenico13]
 
 
 0.1.0 (2017-12-21)
