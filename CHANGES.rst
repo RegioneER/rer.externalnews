@@ -4,8 +4,8 @@ Changelog
 0.1.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Include upgrades package
+  [cekk]
 
 0.1.2 (2018-01-05)
 ------------------
