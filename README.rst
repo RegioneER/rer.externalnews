@@ -47,6 +47,26 @@ Compatibility
 This package is fully compatible for Plone 5.
 
 
+=======
+Credits
+=======
+
+Developed with the support of `Regione Emilia Romagna <http://www.regione.emilia-romagna.it/>`_;
+
+Regione Emilia Romagna supports the `PloneGov initiative <http://www.plonegov.it/>`_.
+
+
+=======
+Authors
+=======
+
+This product was developed by **RedTurtle Technology** team.
+
+.. image:: https://avatars1.githubusercontent.com/u/1087171?s=100&v=4
+   :alt: RedTurtle Technology Site
+   :target: http://www.redturtle.it/
+
+
 Contribute
 ----------
 
