@@ -14,7 +14,7 @@ long_description = '\n\n'.join([
 
 setup(
     name='rer.externalnews',
-    version='0.1.3.dev0',
+    version='1.0.0.dev0',
     description="A Plone add-on for Regione Emilia Romagna",
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
