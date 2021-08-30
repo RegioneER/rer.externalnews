@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.2.0 (unreleased)
+1.0.0 (unreleased)
 ------------------
 
 - Include upgrades package
