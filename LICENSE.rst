@@ -1,4 +1,4 @@
-rer.externalnews Copyright 2017, Giacomo Monari
+rer.externalnews Copyright 2017, RedTurtle Technology
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License version 2

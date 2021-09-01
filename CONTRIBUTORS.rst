@@ -1,4 +1,4 @@
 Contributors
 ============
 
-- Giacomo Monari, giacomo.monari@redturtle.it
+- RedTurtle Technology, sviluppoplone@redturtle.it
