@@ -4,8 +4,8 @@ Changelog
 1.0.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Updated translations.
+  [daniele]
 
 1.0.0 (2021-08-30)
 ------------------
