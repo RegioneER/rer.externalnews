@@ -4,8 +4,8 @@ Changelog
 1.0.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Added serializer and remoteUrl field. Updated translations.
+  [daniele]
 
 1.0.1 (2021-09-01)
 ------------------

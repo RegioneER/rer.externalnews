@@ -4,6 +4,9 @@
     xmlns:plone="http://namespaces.plone.org/plone"
     i18n_domain="rer.externalnews">
 
+  <include package=".restapi" />
+
+
   <!-- External News view -->
   <browser:page
       name="externalnews_redirect_view"

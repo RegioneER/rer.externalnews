@@ -20,7 +20,7 @@ msgstr "Modifica"
 
 #: ../profiles/default/types/ExternalNews.xml
 msgid "ExternalNews"
-msgstr "News esterna"
+msgstr "Notizia esterna"
 
 #: ../browser/templates/externalnews.pt:15
 msgid "Info"
