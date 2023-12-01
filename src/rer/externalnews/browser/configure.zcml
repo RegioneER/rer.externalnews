@@ -9,11 +9,11 @@
 
   <!-- External News view -->
   <browser:page
-      name="externalnews_redirect_view"
-      for="rer.externalnews.interfaces.IExternalNews"
-      class=".externalnews_view.ExternalNewsRedirectView"
-      layer="rer.externalnews.interfaces.IRerExternalnewsLayer"
-      permission="zope2.View"
+    for="rer.externalnews.interfaces.IExternalNews"
+    name="link_redirect_view"
+    class="plone.app.contenttypes.browser.link_redirect_view.LinkRedirectView"
+    permission="zope2.View"
+    layer="rer.externalnews.interfaces.IRerExternalnewsLayer"
       />
 
 </configure>
