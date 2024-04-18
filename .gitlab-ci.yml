@@ -1,0 +1,49 @@
+# This file is a template, and might need editing before it works on your project.
+# Official language image. Look for the different tagged releases at:
+# https://hub.docker.com/r/library/plone/tags/
+image: python:3.8-buster
+
+# Change pip's cache directory to be inside the project directory since we can
+# only cache local items.
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache"
+
+# Pip's cache doesn't store the python packages
+# https://pip.pypa.io/en/stable/reference/pip_install/#caching
+#
+# If you want to also cache the installed packages, you have to install
+# them in a virtualenv and cache it as well.
+cache:
+  paths:
+    - .cache/pip
+    - venv/
+    - downloads/
+    - eggs/
+
+# Set execution order: first run jobs on 'test' stage on parallel
+# then run jobs on 'report' stage
+stages:
+  - deploy
+
+before_script:
+  - pip install virtualenv
+  - export LC_CTYPE=C.UTF-8
+  - export LC_ALL=C.UTF-8
+  - export LANG=C.UTF-8
+  - virtualenv --clear -p python3.7 venv
+  - source venv/bin/activate
+  # - pip install -r requirements.txt
+  # - buildout bootstrap
+  # - bin/buildout -n -c buildout.cfg code-analysis:return-status-codes=True
+
+release-egg:
+  stage: deploy
+  script:
+    - pip install twine
+    - pip install requests==2.27.0 # to avoid SSL CERTIFICATE_VERIFY_FAILED error
+    - python setup.py sdist
+    - TWINE_PASSWORD=${NEXUS_PASSWORD} TWINE_USERNAME=${NEXUS_USERNAME} CURL_CA_BUNDLE="" python -m twine upload --repository-url https://nexus.ente.regione.emr.it/repository/plone-pypi/ dist/*
+  only:
+    - tags
+  except:
+    - pipelines
