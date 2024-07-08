@@ -16,7 +16,7 @@ class SerializeToJson(Base):
         res = super(SerializeToJson, self).__call__(version, include_items)
         steps = self.get_steps()
         res["steps"] = steps
-        res['remoteUrl'] = res['externalUrl']
+        res["remoteUrl"] = res["externalUrl"]
         return res
 
     def get_steps(self):

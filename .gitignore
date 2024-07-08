@@ -1,13 +1,16 @@
+__pycache__
+.DS_Store
+pyvenv.cfg
 .coverage
+coverage.json
+.python-version
 *.egg-info
-*.EGG-INFO
-*.egg
-*.EGG
 *.log
 *.mo
 *.py?
 *.swp
 # dirs
+__pycache__
 bin/
 buildout-cache/
 develop-eggs/
@@ -16,8 +19,10 @@ htmlcov/
 include/
 lib/
 local/
+node_modules/
 parts/
 src/*
+dist/*
 test.plone_addon/
 var/
 # files
@@ -28,6 +33,9 @@ log.html
 output.xml
 pip-selfcheck.json
 report.html
+.vscode/
+.tox/
+reports/
 # excludes
 !.coveragerc
 !.editorconfig
@@ -35,5 +43,5 @@ report.html
 !.gitignore
 !.gitkeep
 !.travis.yml
-!src/rer
-.DS_Store
+!src/redturtle
+.idea/

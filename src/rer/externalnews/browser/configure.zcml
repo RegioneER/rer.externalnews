@@ -2,18 +2,19 @@
     xmlns="http://namespaces.zope.org/zope"
     xmlns:browser="http://namespaces.zope.org/browser"
     xmlns:plone="http://namespaces.plone.org/plone"
-    i18n_domain="rer.externalnews">
+    i18n_domain="rer.externalnews"
+    >
 
   <include package=".restapi" />
 
 
   <!-- External News view -->
   <browser:page
-    for="rer.externalnews.interfaces.IExternalNews"
-    name="link_redirect_view"
-    class="plone.app.contenttypes.browser.link_redirect_view.LinkRedirectView"
-    permission="zope2.View"
-    layer="rer.externalnews.interfaces.IRerExternalnewsLayer"
+      name="link_redirect_view"
+      for="rer.externalnews.interfaces.IExternalNews"
+      class="plone.app.contenttypes.browser.link_redirect_view.LinkRedirectView"
+      permission="zope2.View"
+      layer="rer.externalnews.interfaces.IRerExternalnewsLayer"
       />
 
 </configure>

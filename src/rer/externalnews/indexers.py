@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from rer.externalnews.interfaces import IExternalNews
 from plone.indexer.decorator import indexer
+from rer.externalnews.interfaces import IExternalNews
 
 
 @indexer(IExternalNews)
