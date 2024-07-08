@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 from plone import api
-from plone.app.testing import setRoles
-from plone.app.testing import TEST_USER_ID
+from plone.app.testing import setRoles, TEST_USER_ID
 from rer.externalnews.testing import RER_EXTERNALNEWS_INTEGRATION_TESTING
 
 import unittest
