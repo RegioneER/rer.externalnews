@@ -31,4 +31,6 @@
       factory=".setuphandlers.HiddenProfiles"
       name="rer.externalnews-hiddenprofiles" />
 
+  <adapter factory=".indexers.getRemoteUrl" name="getRemoteUrl" />
+
 </configure>

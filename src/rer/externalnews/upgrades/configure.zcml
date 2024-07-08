@@ -12,4 +12,12 @@
         sortkey="1"
         profile="rer.externalnews:default"
     />
+  <genericsetup:upgradeStep
+        title="Upgrade rer.externalnews to 1200"
+        description="Migrates rer.externalnews to 1200"
+        source="1100"
+        destination="1200"
+        handler=".upgrades.to_1200"
+        profile="rer.externalnews:default"
+    />
 </configure>
