@@ -3,4 +3,4 @@
 from zope.i18nmessageid import MessageFactory
 
 
-_ = MessageFactory('rer.externalnews')
+_ = MessageFactory("rer.externalnews")

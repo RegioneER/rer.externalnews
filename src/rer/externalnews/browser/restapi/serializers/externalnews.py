@@ -3,10 +3,8 @@ from plone import api
 from plone.restapi.interfaces import ISerializeToJson
 from plone.restapi.serializer.dxcontent import SerializeFolderToJson as Base
 from rer.externalnews.interfaces import IExternalNews
-from zope.component import adapter
-from zope.component import getMultiAdapter
-from zope.interface import implementer
-from zope.interface import Interface
+from zope.component import adapter, getMultiAdapter
+from zope.interface import implementer, Interface
 
 
 @implementer(ISerializeToJson)
@@ -16,7 +14,7 @@ class SerializeToJson(Base):
         res = super(SerializeToJson, self).__call__(version, include_items)
         steps = self.get_steps()
         res["steps"] = steps
-        res['remoteUrl'] = res['externalUrl']
+        res["remoteUrl"] = res["externalUrl"]
         return res
 
     def get_steps(self):

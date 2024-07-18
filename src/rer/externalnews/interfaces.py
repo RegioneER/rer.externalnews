@@ -12,22 +12,23 @@ class IRerExternalnewsLayer(IDefaultBrowserLayer):
 
 
 class IExternalNews(Interface):
-    """ Interfaccia per il content type: External News"""
+    """Interfaccia per il content type: External News"""
 
     externalUrl = schema.TextLine(
-        title=_(u'rer_externalnews_externalurl', default=u'External url'),
+        title=_("rer_externalnews_externalurl", default="External url"),
         description=_(
-                u'rer_ernews_externalurl_help',
-                default=u'Insert a valid link to an external resource'),
-        default=u'',
+            "rer_ernews_externalurl_help",
+            default="Insert a valid link to an external resource",
+        ),
+        default="",
         required=True,
     )
 
     externalSource = schema.TextLine(
-        title=_(u'rer_externalnews_externalsource', default=u'Source'),
+        title=_("rer_externalnews_externalsource", default="Source"),
         description=_(
-                u'rer_externalnews_externalsource_help',
-                default=u"Where the URL is from."),
-        default=u'',
+            "rer_externalnews_externalsource_help", default="Where the URL is from."
+        ),
+        default="",
         required=False,
     )
