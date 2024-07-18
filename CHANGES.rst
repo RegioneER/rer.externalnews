@@ -4,7 +4,8 @@ Changelog
 1.1.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Populate getRemoteUrl metadata.
+  [cekk]
 
 
 1.1.0 (2024-04-18)
