@@ -4,7 +4,8 @@ Changelog
 1.1.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Register IObjectPrimaryFieldTarget for #28820.
+  [cekk]
 
 
 1.1.1 (2024-07-18)

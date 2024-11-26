@@ -1,16 +1,10 @@
-__pycache__
-.DS_Store
-pyvenv.cfg
 .coverage
-coverage.json
-.python-version
 *.egg-info
 *.log
 *.mo
 *.py?
 *.swp
 # dirs
-__pycache__
 bin/
 buildout-cache/
 develop-eggs/
@@ -21,7 +15,6 @@ lib/
 local/
 node_modules/
 parts/
-src/*
 dist/*
 test.plone_addon/
 var/
@@ -36,12 +29,5 @@ report.html
 .vscode/
 .tox/
 reports/
+venv/
 # excludes
-!.coveragerc
-!.editorconfig
-!.gitattributes
-!.gitignore
-!.gitkeep
-!.travis.yml
-!src/redturtle
-.idea/
