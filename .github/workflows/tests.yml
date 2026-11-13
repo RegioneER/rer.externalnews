@@ -37,26 +37,7 @@ jobs:
           bin/code-analysis
       - name: Run tests
         run: |
-          bin/test-coverage
+          bin/test
         env:
           PROXY_BEARER_AUTH: on
           TZ: ${{ matrix.tz }}
-      - name: Upload coverage data to coveralls.io
-        run: |
-          pip install coveralls
-          coveralls --service=github
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          COVERALLS_FLAG_NAME: py${{ matrix.python }}-plone${{ matrix.plone }}-tz${{ matrix.tz }}
-          COVERALLS_PARALLEL: true
-
-  coveralls_finish:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-    - name: Finished
-      run: |
-        pip install --upgrade coveralls
-        coveralls --service=github --finish
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
