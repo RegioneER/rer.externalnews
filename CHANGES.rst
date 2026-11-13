@@ -4,7 +4,8 @@ Changelog
 1.1.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Convert old-style behavior names to short names for ExternalNews (upgrade-step 1300).
+  [cekk]
 
 
 1.1.1 (2024-07-18)

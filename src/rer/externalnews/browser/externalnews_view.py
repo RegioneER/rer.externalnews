@@ -8,7 +8,6 @@ from Products.Five.browser import BrowserView
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 from zope.component import getUtility
 
-
 # links starting with these URL scheme should not be redirected to
 NON_REDIRECTABLE_URL_SCHEMES = [
     "mailto:",

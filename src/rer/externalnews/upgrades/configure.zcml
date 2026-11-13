@@ -21,4 +21,12 @@
       destination="1200"
       handler=".upgrades.to_1200"
       />
+  <genericsetup:upgradeStep
+      title="Adjust content-type behavior names"
+      description="Convert old-style behavior names to short names"
+      profile="rer.externalnews:default"
+      source="1200"
+      destination="1300"
+      handler=".upgrades.to_1300"
+      />
 </configure>
