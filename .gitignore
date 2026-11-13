@@ -21,7 +21,6 @@ lib/
 local/
 node_modules/
 parts/
-src/*
 dist/*
 test.plone_addon/
 var/
@@ -43,5 +42,4 @@ reports/
 !.gitignore
 !.gitkeep
 !.travis.yml
-!src/redturtle
 .idea/
