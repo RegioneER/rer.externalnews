@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.1.2 (unreleased)
+1.2.0 (2026-11-13)
 ------------------
 
 - Convert old-style behavior names to short names for ExternalNews (upgrade-step 1300).
